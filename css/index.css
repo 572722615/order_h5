@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: PingFangRegular;
+    src:url('font/PingFangRegular.ttf');
+}
+body{
+    font-family:"PingFangRegular";
+}
+body p{
+    color:#999999;
+}
+hr{
+   margin: 12px 15px 11px 15px;
+    background: #E9E9E9;
+}
+body span{
+    color:#333333;
+}
+
+.grey_s{
+    float: left;
+    font-size: 20px;
+    color: #999999;
+}
+
+#wrap{
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #323136;
+}
+#nav p{
+    font-size: 36px;
+    color:#FFFFFF;
+}
+
+#head img{
+    width:26px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+#consignee{
+    font-size: 32px;
+    float: left;
+    margin-left: 34px;
+    margin-top: 30px;
+}
+#phone{
+    font-size: 28px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 107px;
+}
+#address{
+    float: left;
+    text-align: left;
+    margin-left: 34px;
+    margin-top: 17px;
+    font-size: 26px;
+}
+
+#mid_t{
+    width: 670px;
+    float:left;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 26px 8px rgba(211,211,211,0.50)
+}
+
+#mid_t p{
+    font-size: 26px;
+    color: #333333;
+}
+#shop_title{
+    float:left;
+    font-size: 26px;
+    margin-left: 20px;
+    margin-top: 13px;
+    color: #333333;
+    letter-spacing: -0.63px;
+}
+#shop_title_box{
+    height: 58px;
+    width: 670px;
+    float: left;
+}
+#service{
+    float: right;
+    font-size: 24px;
+    padding-top: 13px;
+    padding-right: 36px;
+    color: #999999;
+    letter-spacing: 0px;
+}
+
+#mid_t img{
+    float: left;
+    width: 140px;
+    margin-left: 20px;
+}
+
+#shop{
+    float:left;
+    font-size: 28px;
+    color: #333333;
+    margin-left: 50px;
+}
+
+#num{
+    margin-right: 30px;
+    float: right;
+    font-size: 22px;
+    color: #999999;
+}
+
+#mid_m{
+    width: 670px;
+    float:left;
+}
+
+#mid_b{
+    width: 670px;
+    float:left;
+}
+#bottom{
+    width: 670px;
+    float:left;
+}
