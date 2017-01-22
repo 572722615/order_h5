@@ -24,6 +24,21 @@ body span{
     color: #999999;
 }
 
+.pink_button{
+    background: #D3C9C6;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding:4px  22px;
+    font-size: 24px;
+}
+.grey_button{
+    background: #F4F4F4;
+    border-radius: 100px;
+    color: #666666;
+    padding:4px  22px;
+    font-size: 24px;
+}
+
 #wrap{
     width: 750px;
     margin: 0 auto;
@@ -40,11 +55,18 @@ body span{
     color:#FFFFFF;
 }
 
-#head img{
+#location{
     width:26px;
     float: left;
     margin-top: 80px;
     margin-left: 40px;
+}
+
+#arror{
+    width:11px;
+    float: right;
+    margin-top: 67px;
+    margin-right: 41px;
 }
 
 #consignee{
@@ -68,6 +90,7 @@ body span{
 }
 
 #mid_t{
+    margin:32px 40px 0px 40px ;
     width: 670px;
     float:left;
     background: #FFFFFF;
@@ -104,6 +127,7 @@ body span{
     float: left;
     width: 140px;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 #shop{
@@ -111,6 +135,22 @@ body span{
     font-size: 28px;
     color: #333333;
     margin-left: 50px;
+}
+#shop_mid{
+    float: left;
+    margin-left: 50px;
+
+}
+
+#shop_mid span{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+#shop_bottom{
+    margin-right: 36px;
+    margin-top: 160px;
+    float: right;
 }
 
 #num{
@@ -123,6 +163,38 @@ body span{
 #mid_m{
     width: 670px;
     float:left;
+}
+
+#mid_m ul{
+    width: 670px;
+    float: left;
+}
+
+#mid_m ul li{
+    float: left;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+#mid_m ul li p {
+    margin-left: 40px;
+    margin-right: 200px;
+    float: left;
+    color: #666666;
+}
+
+#mid_m ul li span{
+}
+#mid_m ul li img{
+    float: right;
+}
+
+#self{
+    float: right;
+
+}
+#post{
+    float: right;
 }
 
 #mid_b{
