@@ -2,86 +2,94 @@
 /* CSS Document */
 @font-face {
     font-family: PingFangRegular;
-    src:url('font/PingFangRegular.ttf');
-}
-body{
-    font-family:"PingFangRegular";
-}
-body p{
-    color:#999999;
-}
-hr{
-   margin: 12px 15px 11px 15px;
-    background: #E9E9E9;
-}
-body span{
-    color:#333333;
+    src: url('font/PingFangRegular.ttf');
 }
 
-.grey_s{
+body {
+    font-family: "PingFangRegular";
+}
+
+body p {
+    color: #999999;
+}
+
+hr {
+    margin: 12px 15px 11px 15px;
+    background: #E9E9E9;
+}
+
+body span {
+    color: #333333;
+}
+
+.grey_s {
     float: left;
     font-size: 20px;
     color: #999999;
 }
 
-.pink_button{
+.pink_button {
     background: #D3C9C6;
     border-radius: 100px;
     color: #FFFFFF;
-    padding:4px  22px;
-    font-size: 24px;
-}
-.grey_button{
-    background: #F4F4F4;
-    border-radius: 100px;
-    color: #666666;
-    padding:4px  22px;
+    padding: 4px 22px;
     font-size: 24px;
 }
 
-#wrap{
+.grey_button {
+    background: #F4F4F4;
+    border-radius: 100px;
+    color: #666666;
+    padding: 4px 22px;
+    font-size: 24px;
+}
+
+#wrap {
     width: 750px;
     margin: 0 auto;
     text-align: center;
 }
 
-#nav{
+#nav {
     padding-top: 12px;
     padding-bottom: 12px;
     background: #323136;
 }
-#nav p{
+
+#nav p {
     font-size: 36px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
-#location{
-    width:26px;
+#location {
+    width: 26px;
     float: left;
     margin-top: 80px;
     margin-left: 40px;
 }
 
-#arror{
-    width:11px;
+#arror {
+    width: 11px;
     float: right;
     margin-top: 67px;
     margin-right: 41px;
 }
 
-#consignee{
+#consignee {
     font-size: 32px;
     float: left;
     margin-left: 34px;
     margin-top: 30px;
 }
-#phone{
+
+#phone {
     font-size: 28px;
     float: right;
     margin-top: 35px;
     margin-right: 107px;
 }
-#address{
+
+#address {
     float: left;
     text-align: left;
     margin-left: 34px;
@@ -89,32 +97,34 @@ body span{
     font-size: 26px;
 }
 
-#mid_t{
-    margin:32px 40px 0px 40px ;
+#mid_t {
+    margin: 32px 40px 0px 40px;
     width: 670px;
-    float:left;
+    float: left;
     background: #FFFFFF;
-    box-shadow: 8px 8px 26px 8px rgba(211,211,211,0.50)
+    box-shadow: 8px 8px 26px 8px rgba(211, 211, 211, 0.50)
 }
 
-#mid_t p{
+#mid_t p {
     font-size: 26px;
     color: #333333;
 }
-#shop_title{
-    float:left;
+
+#shop_title {
+    float: left;
     font-size: 26px;
     margin-left: 20px;
     margin-top: 13px;
     color: #333333;
-    letter-spacing: -0.63px;
 }
-#shop_title_box{
+
+#shop_title_box {
     height: 58px;
     width: 670px;
     float: left;
 }
-#service{
+
+#service {
     float: right;
     font-size: 24px;
     padding-top: 13px;
@@ -123,85 +133,167 @@ body span{
     letter-spacing: 0px;
 }
 
-#mid_t img{
+#mid_t img {
     float: left;
     width: 140px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-#shop{
-    float:left;
+#shop {
+    float: left;
     font-size: 28px;
     color: #333333;
     margin-left: 50px;
 }
-#shop_mid{
+
+#shop_mid {
     float: left;
     margin-left: 50px;
 
 }
 
-#shop_mid span{
+#shop_mid span {
     margin-top: 20px;
     margin-right: 40px;
 }
 
-#shop_bottom{
+#shop_bottom {
     margin-right: 36px;
     margin-top: 160px;
     float: right;
 }
 
-#num{
+#num {
     margin-right: 30px;
     float: right;
     font-size: 22px;
     color: #999999;
 }
 
-#mid_m{
-    width: 670px;
-    float:left;
-}
-
-#mid_m ul{
+#mid_m {
     width: 670px;
     float: left;
 }
 
-#mid_m ul li{
+#mid_m ul {
+    width: 670px;
+    float: left;
+}
+
+#mid_m ul li {
     float: left;
     margin-top: 40px;
     font-size: 24px;
 }
 
+#mid_m hr {
+    float: left;
+    width: 670px;
+    margin: 40px 40px 0px 40px;
+}
+
 #mid_m ul li p {
     margin-left: 40px;
-    margin-right: 200px;
+    margin-right: 310px;
     float: left;
     color: #666666;
 }
 
-#mid_m ul li span{
+#total {
+    margin-top: 20px;
+    float: right;
+    font-size: 22px;
+    color: #333333;
 }
-#mid_m ul li img{
+
+#total span {
+    font-size: 50px;
+}
+
+#mid_m ul li img {
     float: right;
 }
 
-#self{
+#self {
     float: right;
 
 }
-#post{
+
+#post {
     float: right;
+    margin-left: 40px;
 }
 
-#mid_b{
+#dollar {
+    margin-left: 140px;
+}
+
+#right_arr {
+    margin-left: 24px;
+}
+
+#mid_b {
+    margin: 40px 40px 0px 40px;
     width: 670px;
-    float:left;
+    float: left;
+    box-shadow: 0px 8px 26px 0px rgba(211, 211, 211, 0.50);
 }
-#bottom{
-    width: 670px;
-    float:left;
+
+#text_title {
+    margin-top: 50px;
+    font-size: 30px;
+    color: #333333;
+}
+
+.text_context {
+    float: left;
+    margin-left: 46px;
+    margin-right: 45px;
+    margin-top: 36px;
+    color: #333333;
+}
+
+#bottom {
+    width: 750px;
+    height: 140px;
+    float: left;
+    background: #FFFFFF;
+    position:fixed;
+    bottom:0px;
+    box-shadow: 0px -4px 26px 0px rgba(229, 229, 229, 0.50);
+}
+
+#b_total{
+    margin-left: 80px;
+    margin-top: 25px;
+    float: left;
+    font-size: 24px;
+    color: #999999;
+}
+
+#b_money{
+    margin-left: 80px;
+    margin-top: 25px;
+    float: left;
+    font-size: 30px;
+    color: #333333;
+}
+
+#b_sure{
+    float: right;
+    background: #D3C9C6;
+    box-shadow: 0px 8px 26px 0px #C6C6C6;
+    border-radius: 100px;
+    padding:19px 81px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+#b_left{
+    width: 198px;
+    float: left;
+}
+
+#b_right{
+    float: right;
 }
